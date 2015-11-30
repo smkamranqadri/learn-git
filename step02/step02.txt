@@ -1,0 +1,34 @@
+##step2
+
+###Change File	
+    notepad hello.html
+>"Change to " <h1>Hello, World!</h1>
+
+###Check Status
+    git status
+>"shows in red" modified: hello.html
+>"File need to be add in stage area"
+
+####Add file to stage
+    git add hello.html
+
+###Check Status
+    git status
+>"shows in green" modified: hello.html
+?"File need to be commit"
+
+###Remove file from stage
+     git reset HEAD hello.html
+
+###Discard Changes in file
+    git checkout -- hello.html
+
+###Make Change again
+    notepad hello.html
+>"Change to " <h1>Hello, World!</h1>
+
+###Add file to stage
+    git add hello.html
+>Add file to branch without "-m" flag
+    git commit
+>"Type commit message in Vim Editor then press ESC key then >type :wq for save and exit"

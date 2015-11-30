@@ -1,0 +1,24 @@
+##step5
+
+###Create Tag
+    git tag wrong
+
+###Add file
+    notepad test2.txt
+>"Type Test2"
+
+###Add file to stage
+    git add test2.txt
+
+###Add file to branch
+    git commit -m "Wrong2"
+
+###Create Tag
+    git tag wrong2
+
+###Switch to Tag
+    git reset --hard wrong
+
+###Check Status
+    git status
+>"Show in which branch you are checkedout"

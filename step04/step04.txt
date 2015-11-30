@@ -1,0 +1,14 @@
+##step4
+
+###Create Branch
+    git branch development
+
+###Switch to Branch
+    git checkout development
+
+###Create &  Switch Branch
+    git checkout -b testing
+
+###Check Status
+    git status
+>"Show in which branch you are checkedout"

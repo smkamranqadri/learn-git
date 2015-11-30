@@ -1,0 +1,21 @@
+##step3
+
+###Add file
+    hello2.html
+>"Type Hello World!"
+
+###Add file to stage
+    git add hello2.html
+
+###Add file to branch
+    git commit -m "Wrong Commit"
+
+###Revert Commit
+    git revert HEAD
+>"Type msg to commit the reverting commit"
+
+###Check Status
+>"Everythink back to the last commit"
+
+###Check Commit List
+    git log
